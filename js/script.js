@@ -23,4 +23,8 @@ if (etaPasseggero < 18) {
   costofinale = scontoAnziani
 }
 
+if ((etaPasseggero >= 18) && (etaPasseggero < 65) ) {
+  costofinale = costocomplessivo;
+}
+
 document.getElementById('Costo').innerHTML = costofinale + '€';
