@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #bf0603
+}
+
+#quantocosta {
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 25%;
+  color: white;
+  text-shadow: 4px 2px grey;
+}
